@@ -1,0 +1,19 @@
+# Python 3.12 compatible requirements
+
+fastapi>=0.115.12,<1.0
+uvicorn[standard]>=0.34.2,<1.0
+
+numpy>=1.26,<3.0
+scipy>=1.12,<2.0
+
+opencv-contrib-python-headless>=4.10,<5.0
+pyserial>=3.5,<4.0
+
+pydantic>=2.7,<3.0
+python-multipart>=0.0.20,<1.0
+python-dotenv>=1.0,<2.0
+PyYAML>=6.0,<7.0
+psutil>=6.0,<8.0
+
+httpx>=0.28.1,<1.0
+pytest>=8.3.5,<10.0
