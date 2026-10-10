@@ -1,0 +1,4 @@
+camera: {source: demo, fps: 12, width: 640, height: 480}
+vision: {detector: color, model: models/detector.pt, confidence: 0.5, classes: []}
+simulation: {speed: 1, timestep: 0.04, gravity: -9.81}
+hardware: {baud: 115200, timeout: 0.5, enabled: false}
