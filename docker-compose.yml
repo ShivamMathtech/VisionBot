@@ -1,0 +1,12 @@
+services:
+  visionbot:
+    build:
+      context: .
+      dockerfile: docker/Dockerfile
+    ports:
+      - "127.0.0.1:8000:8000"
+    volumes:
+      - visionbot-data:/app/data
+    restart: unless-stopped
+volumes:
+  visionbot-data:
