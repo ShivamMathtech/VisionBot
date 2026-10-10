@@ -1,0 +1,116 @@
+{
+  "id": "pick-red",
+  "name": "Pick and place red cube",
+  "steps": [
+    {
+      "type": "detect",
+      "target": "red_cube",
+      "position": null,
+      "joints": null,
+      "value": null,
+      "action": null,
+      "enabled": true,
+      "steps": [],
+      "otherwise": []
+    },
+    {
+      "type": "move_above",
+      "target": "red_cube",
+      "position": null,
+      "joints": null,
+      "value": 100.0,
+      "action": null,
+      "enabled": true,
+      "steps": [],
+      "otherwise": []
+    },
+    {
+      "type": "lower",
+      "target": null,
+      "position": null,
+      "joints": null,
+      "value": 65.0,
+      "action": null,
+      "enabled": true,
+      "steps": [],
+      "otherwise": []
+    },
+    {
+      "type": "gripper",
+      "target": null,
+      "position": null,
+      "joints": null,
+      "value": null,
+      "action": "close",
+      "enabled": true,
+      "steps": [],
+      "otherwise": []
+    },
+    {
+      "type": "lift",
+      "target": null,
+      "position": null,
+      "joints": null,
+      "value": 65.0,
+      "action": null,
+      "enabled": true,
+      "steps": [],
+      "otherwise": []
+    },
+    {
+      "type": "move_above",
+      "target": "target_zone",
+      "position": null,
+      "joints": null,
+      "value": 100.0,
+      "action": null,
+      "enabled": true,
+      "steps": [],
+      "otherwise": []
+    },
+    {
+      "type": "lower",
+      "target": null,
+      "position": null,
+      "joints": null,
+      "value": 65.0,
+      "action": null,
+      "enabled": true,
+      "steps": [],
+      "otherwise": []
+    },
+    {
+      "type": "gripper",
+      "target": null,
+      "position": null,
+      "joints": null,
+      "value": null,
+      "action": "open",
+      "enabled": true,
+      "steps": [],
+      "otherwise": []
+    },
+    {
+      "type": "lift",
+      "target": null,
+      "position": null,
+      "joints": null,
+      "value": 65.0,
+      "action": null,
+      "enabled": true,
+      "steps": [],
+      "otherwise": []
+    },
+    {
+      "type": "home",
+      "target": null,
+      "position": null,
+      "joints": null,
+      "value": null,
+      "action": null,
+      "enabled": true,
+      "steps": [],
+      "otherwise": []
+    }
+  ]
+}
